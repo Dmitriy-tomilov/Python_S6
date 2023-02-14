@@ -7,6 +7,6 @@ list_1 = [1, 2, 3, 2, 3]
 count = 0
 for i in range(len(list_1)):
     for j in range(len(list_1)):
-        if list_1[i] == list_1[j]:
+        if list_1[i] == list_1[j] and i!=j:
             count += 1
 print(count)
